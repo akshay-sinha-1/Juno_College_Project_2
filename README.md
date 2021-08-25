@@ -12,5 +12,6 @@ Desktop:
 ![Desktop - Jewel Hub](https://user-images.githubusercontent.com/64050143/130867296-5d4c8896-0bf1-4ba7-b6cc-03c0066448cd.jpg)
 
 Mobile:
+
 ![Mobile - Jewel Hub](https://user-images.githubusercontent.com/64050143/130867304-31112a4b-1edf-4a1f-a09d-aea174bd5643.jpg)
 
