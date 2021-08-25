@@ -7,8 +7,10 @@ Browse the designs below and when you find one that speaks to you, get started b
 
 Style Guide:
 [Styleguide-Jewel Hub.pdf](https://github.com/akshay-sinha-1/Juno-/files/7050017/Styleguide-Jewel.Hub.pdf)
+
 Desktop:
 ![Desktop - Jewel Hub](https://user-images.githubusercontent.com/64050143/130867296-5d4c8896-0bf1-4ba7-b6cc-03c0066448cd.jpg)
+
 Mobile:
 ![Mobile - Jewel Hub](https://user-images.githubusercontent.com/64050143/130867304-31112a4b-1edf-4a1f-a09d-aea174bd5643.jpg)
 
