@@ -1,0 +1,388 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+*{
+  /* border: #FF0000 solid 1px; */
+}
+
+/******* General Styling *******/
+html{
+  font-size: 62.5%;
+  
+}
+
+body {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'Barlow', sans-serif;
+  word-spacing: 0.5em;
+}
+
+/******* Wrapper Styling ********/
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+}
+
+/******** General Heading Stylling ********/
+
+h1{
+  font-size: 10rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Cardo', serif;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h2{
+  font-size: 4rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Cardo', serif;
+  text-transform: uppercase;
+}
+
+h3{
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+h4{
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+/******** Button Styling ********/
+
+button {
+  padding: 8px 15px;
+  font-size: 2.5rem;
+  border: 2px #ffb100 solid;
+}
+
+/******* General Image Styling ********/
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/****** Header Section Styling *******/
+
+header{
+  background-image: url(./Assets/header-image.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+/******** Nav & Logo Styling *********/
+
+nav{
+  margin: 0 0 20px 0;
+  padding: 20px 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  margin: 0 0 0 20px;
+  padding: 0;
+  color: #ffffff;
+  font-family: 'Cardo', serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.logo p{
+  margin: 0;
+}
+
+nav ul{
+  margin: 0 20px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 50px 0 0;
+  list-style: none;
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+nav a{
+  background-color:rgba(0, 0, 0, 0);
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover, nav a:focus, nav a:active{
+  border-bottom: 2px #ffb100 solid;
+}
+
+header h1{
+  margin: 100px 0 0 0;
+  padding: 0;
+  width: 50%;
+}
+
+header button{
+  background-color: #232221;
+  margin: 50px 0 0 0;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  background-color:rgba(0, 0, 0, 0);
+}
+
+/******* Shop and Arrivals Styling *******/
+
+.shop-now{
+  margin: 50px 0 50px 0;
+  height: 75vh;
+}
+
+.shop-now div.wrapper{
+  position: relative;
+}
+
+.model-img{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: -250px;
+  right: 600px;
+}
+
+.model-img img{
+  box-shadow: 30px 50px 10px 5px rgba(0, 0, 0, 0.2)
+}
+
+.arrival-info {
+  width: 50%;
+  position: absolute;
+  padding: 0 0 0 40px;
+  left: 600px;
+}
+
+.arrival-info h2{
+  margin: 100px 0 0 0;
+  padding: 0;
+  color: #7B2F00;
+}
+
+.arrival-info p{
+  margin: 25px 0 50px 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.arrival-info button, a  {
+  color: #232221;
+  background-color: #ffffff;
+  text-emphasis: none;
+  text-decoration: none;
+}
+
+/******* Blog post section *******/
+
+.blog{
+  background-image: url(./Assets/banner-image.jpg);
+  background-size: cover;
+  height: 70vh;
+}
+
+.posts{
+  margin: 100px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.posts span{
+  border-bottom: solid 2px #ffb100;
+}
+
+.posts p{
+  text-align: center;
+}
+
+.posts button{
+  margin: 50px 0 0 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+}
+
+/******* Feature items *******/
+
+.featured-items{
+  margin: 50px 0 100px 0;
+  height: 62.625vh;
+}
+.featured-items h2{
+  margin: 0 0 50px 0;
+  padding: 0;
+  text-align: center;
+  color: #7B2F00;
+}
+
+/******* Feature items, Gallery items *******/
+
+.gallery-container{
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+}
+
+.gallery-item{
+  width: calc((80vw - 20px)/ 3);
+  max-width: 400px;
+  max-height: 400px;
+  position: relative;
+}
+
+.gallery-item img{
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gallery-item .merch-tags{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #491400;
+}
+
+.merch-tags{
+  margin: 0;
+  padding: 20px 10px;
+  width: 225px;
+  height: 150px;
+}
+
+.merch-tags h4{
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 2.8rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.merch-tags p{
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 2.8rem;
+  color: #ffb100;
+  text-transform: uppercase;
+}
+
+
+/******* Contact-Us *******/
+
+.contact-us{
+  text-align: center;
+  background-color: #1f0a03;
+}
+
+.contact-us h2{
+  margin: 50px auto;
+  padding: 0;
+  color: #ffffff;
+}
+
+.contact-us .wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+/******* NAME AND EMAIL BOX *******/
+
+.contact-info{
+  margin: 0 0 25px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-info input{
+  width: 550px;
+  height: 40px;
+  background-color: inherit;
+  color: #ffb100;
+  border: #ffffff 2px solid;
+}
+
+/******* MESSAGE BOX *******/
+
+.message-box{
+  margin: 0 auto;
+}
+
+.message-box textarea {
+  background-color: inherit;
+  color: #ffb100;
+  border: #ffffff 2px solid;
+  width: 1125px;
+  height: 200px;
+  resize: none;
+  resize: vertical;
+  min-height: 200px;
+  max-height: 400px;
+}
+
+/******* NAME, EMAIL BOX, MESSAGE BOX WHEN FOCUSED *******/
+
+.info input:focus, textarea:focus{
+  outline: #ffb100;
+  border: #ffb100 2px solid;
+  box-shadow: 0 0 10px rgba(255,177,0, 0.5);
+}
+/******* SUBMIT BUTTON *******/
+
+.submit{
+  margin: 25px auto 50px auto;
+}
+
+.submit button{
+  background-color: inherit;
+  color: #ffffff;
+}
+
+/******* FOOTER *******/
+
+footer{
+  margin: 0;
+  padding: 20px auto;
+  text-align: center;
+  background-color: #232221;
+}
+
+footer h3{
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+}
